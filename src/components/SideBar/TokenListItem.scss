@@ -1,0 +1,33 @@
+.TokenListItem {
+
+  list-style-type: none;
+}
+.TokenListItem__container {
+  display: inline-block;
+  height: 50px;
+  width: 100%;
+}
+
+.TokenListItem__name {
+  display: inline-block;
+  background-color: blue;
+  width: 40%;
+  height: 90%;
+  text-align: center;
+}
+
+.TokenListItem__price {
+  display: inline-block;
+  background-color: aquamarine;
+  width: 40%;
+  height: 90%;
+  text-align: center;
+}
+
+.TokenListItem__contrast {
+  display: inline-block;
+  background-color: cornsilk;
+  width: 20%;
+  height: 90%;
+  text-align: center;
+}

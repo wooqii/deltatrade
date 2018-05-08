@@ -1,6 +1,7 @@
 import React from 'react'
 
 import './Layout.scss'
+import SideBar from "components/SideBar/index";
 
 const Layout = () => (
   <div className="Layout">
@@ -20,10 +21,7 @@ const Layout = () => (
 const LayoutLeft = () => (
   <div className="Layout__Left">
     <div className="Layout__Sidebar">
-      {/*
-        TODO: import Sidebar component,
-        ex: <Sidebar />
-      */}
+      {<SideBar />}
       Layout__Sidebar
     </div>
   </div>
