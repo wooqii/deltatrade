@@ -15,15 +15,15 @@ export default class SortableTokenList extends Component {
     input: '',
   }
 
-  render () {
+  render() {
     const {tokens, onClickToken} = this.props;
-    return(
-      <div className = 'SortableTokenList__container'>
+    return (
+      <div className="SortableTokenList__container">
         <input onChange={(e) => {this.setState({input: e.target.value})}} />
         <TokenList
-          input = {this.state.input}
-          tokens = {tokens}
-          onClickToken ={onClickToken}
+          input={this.state.input}
+          tokens={tokens}
+          onClickToken={onClickToken}
         />
       </div>
     )

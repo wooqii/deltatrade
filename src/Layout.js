@@ -1,7 +1,8 @@
 import React from 'react'
 
 import './Layout.scss'
-import SideBar from "components/SideBar/index";
+import SideBar from 'components/SideBar/index';
+import Chart from 'components/Chart/index';
 
 const Layout = () => (
   <div className="Layout">
@@ -30,10 +31,7 @@ const LayoutLeft = () => (
 const LayoutCenter = () => (
   <div className="Layout__Center">
     <div className="Layout__Chart">
-      {/*
-        TODO: import Chart component,
-        ex: <Sidebar />
-      */}
+      {<Chart />}
       Layout__Chart
     </div>
     <div className="Layout__OrderBook">
