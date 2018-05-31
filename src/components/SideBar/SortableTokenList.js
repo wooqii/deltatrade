@@ -19,7 +19,7 @@ export default class SortableTokenList extends Component {
     const {tokens, onClickToken} = this.props;
     return (
       <div className="SortableTokenList__container">
-        <input onChange={(e) => {this.setState({input: e.target.value})}} />
+        <input onChange={(e) => { this.setState({ input: e.target.value }) }} />
         <TokenList
           input={this.state.input}
           tokens={tokens}

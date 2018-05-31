@@ -1,16 +1,14 @@
 import React from 'react'
 
 import './Layout.scss'
-import SideBar from 'components/SideBar/index';
-import Chart from 'components/Chart/index';
+import SideBar from 'components/SideBar/index'
+import Chart from 'components/Chart/index'
+import Nav from 'components/Nav/index'
 
 const Layout = () => (
   <div className="Layout">
     <div className="Layout__Header">
-      {/*
-        TODO: import Nav component,
-        ex: <Nav />
-      */}
+      {<Nav />}
       Layout__Header
     </div>
     <LayoutLeft />
